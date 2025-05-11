@@ -6,12 +6,12 @@ export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
       {/* Hero Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-br from-neutral-50 to-neutral-200 dark:from-neutral-900 dark:to-neutral-800">
+      <section className="py-20 md:py-32 bg-gradient-to-br from-neutral-900 via-black to-neutral-800 dark:from-neutral-950 dark:via-black dark:to-neutral-900">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-neutral-900 dark:text-neutral-100">
-            Welcome to <span className="bg-clip-text text-transparent bg-gradient-to-r from-neutral-800 to-neutral-500 dark:from-neutral-200 dark:to-neutral-400">AI Labs</span>
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-neutral-100 dark:text-neutral-100">
+            Welcome to <span className="bg-clip-text text-transparent bg-gradient-to-r from-neutral-200 via-neutral-50 to-neutral-300 dark:from-neutral-200 dark:via-neutral-100 dark:to-neutral-400">AI Labs</span>
           </h1>
-          <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 mb-10 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-neutral-300 dark:text-neutral-400 mb-10 max-w-2xl mx-auto">
             Powering the future with AI Labs. We build cutting-edge AI solutions
             to solve complex problems and drive progress.
           </p>
